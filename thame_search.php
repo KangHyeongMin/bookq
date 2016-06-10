@@ -38,7 +38,7 @@
         $user_id = $_SESSION['user_id'];
         $user_name = $_SESSION['user_name'];
     ?>
-    <!-- Navigation -->
+        <!-- Navigation -->
     <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
         <div class="container">
             <!-- Brand and toggle get grouped for better mobile display -->
@@ -55,7 +55,7 @@
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav navbar-right">
                     <li>
-                        <a href="#">테마별 추천</a>
+                        <a href="thame_search.php">테마별 추천</a>
                     </li>
                     <li>
                         <a href="/search.php">책 검색하기</a>
@@ -71,7 +71,7 @@
                                 <a href="#">개인 정보 수정</a>
                             </li>
                             <li>
-                                <a href="#">내가 읽은 책</a>
+                                <a href="read_list.php">내가 읽은 책</a>
                             </li>
                             <li>
                                 <a href="#">내 친구</a>
